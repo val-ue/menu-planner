@@ -1,0 +1,651 @@
+/*Mobile Design*/
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E6E1;
+    font-size: 16px;
+    font-family: "Urbanist", serif;
+
+
+
+
+    /*height: 100%; */
+}
+
+/*.urbanist-<uniquifier> {
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  Legacy browser support for variable fonts
+  Read our FAQ
+*/  
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2 {
+    /*color: whitesmoke; */
+}
+
+header {
+   /*  background-color: white; */
+    width:90%;
+    height:23%;
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.welcome {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0em 0em 1.7em 0em;
+    color: #323230;
+}
+
+
+.food {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.palette {
+    display: flex;
+    flex-direction: row;
+    width:90%;
+}
+
+
+
+#div1 {
+    background-color: hsla(190, 44%, 24%, 1);
+}
+#div2 {
+    background-color: hsla(178, 47%, 30%, 1);
+}
+#div3 {
+    background-color: hsla(174, 49%, 39%, 1);
+}
+#div4 {
+    background-color: #478290;
+}
+#div5 {
+    background-color: hsla(27, 87%, 68%, 1);
+}
+#div6 {
+    background-color: hsla(18, 79%, 64%, 1);
+}
+#div7 {
+    background-color: hsla(11, 75%, 60%, 1);
+}
+
+.sunday {
+    background-color: hsla(190, 44%, 6%, 1);
+}
+.monday {
+    background-color: hsla(178, 47%, 12%, 1);
+}
+.tuesday {
+    background-color: hsla(174, 49%, 21%, 1);
+}
+.wednesday {
+    /*background-color: hsla(44, 72%, 46%, 1);*/
+    background-color: #478290
+}
+.thursday {
+    background-color: hsla(27, 87%, 50%, 1); 
+}
+.friday {
+    background-color: hsla(18, 79%, 46%, 1);
+}
+.saturday {
+    background-color: hsla(11, 75%, 42%, 1);
+}
+
+.foodinfo {
+    /* height: 100%; */
+    /* width: 100%; */
+    /*overflow: auto;*/
+    padding: 0em 0em 0.5em 0em;
+    text-align: 
+
+}
+
+
+.bubble {
+    display: flex;
+    width: 60%; 
+    height: 74%;
+    padding-left: 10%;
+    /*background-color: rgba(255, 255, 255, 0.6); */
+    justify-content: center;
+    align-items: center;
+    /*margin: 5% 5%; */
+    flex-direction: column;
+}
+
+#dayname {
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+#daycalories {
+    color: white;
+    font-weight: 800;
+    width: 100%;
+
+}
+
+#dayingredients {
+    color: white;
+    font-weight: 400;
+    font-size: .9em;
+    width: 100%;
+    overflow: ;
+     
+}
+
+.setup {
+    display: flex;
+    align-items: center;    
+    padding: 3em 0em 1.4em 0em;
+
+}
+
+.setup h1 {
+    /*background-color: hsla(178, 47%, 30%, 1);*/
+    color: #323230;
+    margin-right: 0px;
+    width: 60%;
+    text-align: left;
+    font-size: 3rem;
+    justify-content: center;
+    /*padding: 0 10px; */
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    /* padding-left: 60px; */
+    margin: 0px;
+    
+}
+
+.icon {
+    color: hsla(178, 47%, 30%, 1);
+    padding: 5px;
+    margin: 5px;;
+    border-radius:  50%;
+    border: 2px solid hsla(178, 47%, 30%, 1);
+}
+
+.allergy-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0em;
+    margin: 0em;
+
+}
+
+.allergens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0px 0px 3em 0px;
+}
+
+.allergens h2 {
+  background-color: #E5E6E1;
+  color: #323230;
+  font-weight: 500;
+  font-size: 2rem;
+  /*padding-left: 130px;*/
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  /*margin: 0em 0em 0px 0em;*/
+  width: 100%;
+  border-top: 1px solid #323230;
+  border-bottom: 1px solid #323230;
+
+}
+
+.allergen {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
+}
+
+.allergy-list li {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #323230;
+}
+
+main {
+    width: 95%;
+    height: 60%;
+    background-color: #FFFFFF;
+         display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2em 2em 2em 2em;
+    border: 0px solid;
+
+}
+
+.my-weekly-menu {
+    font-weight: 300;
+    font-size: 1.1em;
+    width: 80%;
+
+}
+.my-weekly-menu p {
+    text-align: center;
+    margin: 1.7em 0em 1em 0em;
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #323230;
+}
+
+
+.weekly-calendar {
+    height: 80%;
+    width: 90%;
+
+}
+
+.box {
+    /* background-color: rgba(38, 70, 83, 0.2); */
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    align-items: end;
+    width: 25%;
+    height: 100%;
+    
+}
+
+.weekday {
+    width:100%;
+    display: flex;
+    align-items: center; 
+    justify-content: start;
+    border-radius: 15px;
+    height: 8.75em;
+    
+}
+
+.weekday h3 {
+    margin: 0em 0em .5em .5em;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.weekday-list {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+    gap: 20px;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+.finalize {
+    display: flex;
+    justify-content: end;
+    margin-top: 17px;
+}
+
+/*classes for the pop-up calendar
+.hidden {
+  display: none;
+}
+
+.blue-sunday {
+    background-color: #3498db !important; 
+    color: white !important;
+}
+
+.gray-day {
+    background-color: #d3d3d3 !important; 
+    color: #888 !important;
+} */
+
+.calendar {
+    display: flex;
+    justify-content: center;
+    /*padding: 0em  0em 3em 0em; */
+}
+
+#calendarStartDatePicker {
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #323230;
+    border-radius: 20px;
+    background-color: white;
+    /*color: #333;*/
+    color: #323230;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.btn {
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #323230;
+    border-radius: 20px;
+    background-color: white;
+    /*color: #333;*/
+    color: #323230;
+    outline: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+/* Focus effect */
+#calendarStartDatePicker:focus {
+    border-color: #323230;
+    box-shadow: 0 0 5px black;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    padding: 0em 0em 3em 0em;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.generate-button {
+    font-size: 1.5em;
+    color: white;
+    background-color: #323230;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.generate-button:hover {
+    border: 2px solid #323230;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    color: #323230;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #323230;
+}
+
+/* Remove default arrow (only works in WebKit browsers) 
+#calendarStartDatePicker::-webkit-inner-spin-button,
+#calendarStartDatePicker::-webkit-clear-button {
+    display: none;
+} */
+
+/* Custom calendar icon 
+#calendarStartDatePicker::-webkit-calendar-picker-indicator {
+    filter: invert(0.5);
+    cursor: pointer;
+    color: aqua;
+}*/
+
+/*checkbox css*/
+/* Hide the default checkbox */
+.checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #323230;
+    border-radius: 5px;
+    background-color: #E5E6E1;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.allergen p {
+    margin: 16px 0.5em 0em 0em;
+    padding: 0em 0em 0em 0em;
+}
+
+.allergen input {
+    margin: 17px 2px 0em 0em;
+    padding: 0em 0em 0em 0em;
+}
+
+/* Custom checkmark when checked */
+.checkbox:checked {
+    background-color: #323230;
+    border-color: #323230;
+}
+
+/* Adding a checkmark */
+.checkbox:checked::after {
+    content: '✓';
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer i {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/*=====================Tablet styles=============================*/
+@media screen and (min-width: 710px) and (max-width: 1024px) {
+
+    .bubble { 
+        height: 100%;
+        padding-left: 0px;
+    }
+
+    #dayname {
+        font-size: 2.0em;
+    }
+    
+    #daycalories {
+        font-size: 1.6em;
+    }
+    
+    #dayingredients {
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+
+    .foodinfo {
+        padding: 0em 0em 0.2em 0em;
+    }    
+
+    .weekday {
+        padding: 10px 0 10px 0;
+    }
+
+    .my-weekly-menu p {
+        font-size: 2.5em;
+    }
+
+    .box {
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+
+    .allergen p{
+        font-size: 1.4em;
+    }
+
+    .checkbox {
+        width: 25px;
+        height: 25px;
+    }
+
+    .allergen input {
+        margin: 21px 2px 0em 0em;
+    }
+
+    .allergens h2 {
+        font-size: 2.5rem;
+    }
+
+    .setup h1 {
+        font-size: 4rem;
+    }
+
+    #calendarStartDatePicker {
+        font-size: 25px;
+    }
+
+    .selection {
+        flex-direction: row;
+    }
+
+}
+
+/*========================Desktop styles========================*/
+@media screen and (min-width: 1025px) {
+
+.weekday-list {
+    flex-direction: row;
+}
+
+.weekday {
+    flex-direction: column;
+    height: auto;
+    gap: 2%;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+}
+
+.box h3 {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.bubble {
+    padding-left: 0px;
+    width: 85%;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.weekly-calendar {
+    width: 98%;
+    height: 350px;
+}
+.weekday-list {
+    gap: 10px;
+    margin: 0;
+}
+
+main {
+    height: 80%;
+    padding-bottom: 28px;
+}
+
+#dayingredients {
+    width: 40%;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.foodinfo {
+    
+}
+
+#dayname {
+    font-weight: 500;
+    font-size: 1.4em;
+}
+
+.weekday h3 {
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.my-weekly-menu p {
+    font-size: 3em;
+    font-weight: 400;
+    margin: 50px 0px 50px 0px; 
+}
+
+#daycalories {
+}
+
+.setup h1 {
+    font-size: 4.5rem;
+}
+
+.allergens h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+#calendarStartDatePicker {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.welcome {
+    width: 100%;
+}
+
+.selection {
+    flex-direction: row;
+}
+
+}

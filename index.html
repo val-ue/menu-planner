@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="https://kit.fontawesome.com/c0ddac57d5.js" crossorigin="anonymous"></script>
+
+        <title>Your Page Title</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="header-group">
+
+               <!-- <section class="calendar">
+                    <label for="date">Select Start date:</label>
+                    <input type="date" id="calendarStartDatePicker" name="calendarStartDatePicker">
+                </section> -->
+            
+                <section class="setup">
+                    <h1>MENU PLANNER</h1>
+                </section>
+
+                <section class="allergens">
+                    <h2>Allergens</h2> <!--generate in JS-->
+                    <ul class="allergy-list" id="alergies">
+
+                    </ul>
+                </section>
+
+                <div class="selection"> 
+                    <section class="calendar">
+                        <!--<label for="date">Select Start date:</label>-->
+                        <input type="date" id="calendarStartDatePicker" name="calendarStartDatePicker">
+                    </section>
+
+                    <button class="generate-button" id="generateBtn">Generate Menu</button>
+                </div>
+
+            </div>
+        </header>    
+          <!--  <section class="calendar">
+                <label for="date">Select Start date:</label>
+                <input type="date" id="calendarStartDatePicker" name="calendarStartDatePicker">
+            </section>
+        </header> -->
+
+        <main>
+            <div class="my-weekly-menu">
+                <p>
+                    My Weekly Menu
+                </p>
+            </div>
+            <section class="weekly-calendar">
+                <ul class="weekday-list" id="days">
+                    <p class = welcome>Make a selection to get started!</p>
+                </ul>
+            </section>
+
+            <!--<section class="finalize">
+                <button>
+                    finalize week
+                </button>
+            </section> -->
+        </main>
+
+        <footer>
+            <p>GitHub Repo</p>
+            <a href="https://github.com/chingu-voyages/V53-tier1-team-01">
+                <i class="fa-brands fa-github"></i>
+            </a> 
+            <!-- light style -->
+        </footer>
+
+        <script type="module" src="main.js" defer></script>
+        <script type="module" src="assets/arrays.js"></script>
+
+        <script type="module" src="./util.js" defer></script>
+    </body>
+</html>
