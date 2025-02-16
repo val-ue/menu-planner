@@ -1,0 +1,10 @@
+@media screen and (min-width: 710px) and (max-width: 1024px) {
+  /* tablet styles */
+  .dish-name {
+    font-size: 1.5rem;
+  }
+
+  .dish-ingredients {
+    font-size: 1.3rem;
+  }
+}

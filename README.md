@@ -1,45 +1,40 @@
-# Menu Planner
+# 📌 Menu Planner
 
-Here we will put detail about our current project. which will be an over view about
-the project
+This is a menu scheduling application that allows managers to create weekly menus for staff. The application ensures users have clear visibility of the planned meals while addressing specific dietary restrictions and allergies. This app was designed and built to simplify menu planning and ensure inclusivity for all employees, leveraging JSON-based datasets for dishes and allergy details.
 
-## Features
+![screnshot](assets/img/preview.png)
 
-- Generate unique menues for a week
+## ✨ Features
+
+- Generates a unique menu for the week
 - Ability to pick the start day of the week
-- Managers can select Alergies to avoid in the menu
+- Managers can select allergies to avoid in the menu
+- Prevents duplicate dishes from generating in the menu
 
 ## Running the project
 
-### Live version
+### 🌐 Live version
 
-- [Project](https://medium.com/chingu/keys-to-a-well-written-readme-55c53d34fe6d)
+- [Link](https://chingumenuplanner.netlify.app/)
 
-### From the repo
+### 📂 From the repo
 
 - `git clone https://github.com/chingu-voyages/V53-tier1-team-01.git`
 - `cd V53-tier1-team-01.git`
 - open `index.html`
 
-## Technologies
+## 🛠️ Technologies
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Team Documents
+## 🚀 Planed Features
 
-- [Team Project Ideas](./docs/team_project_ideas.md)
-- [Team Decision Log](./docs/team_decision_log.md)
+- Enable managers to share the weekly menu with employees via a link.
+- Provide the ability to save a menu for future use.
 
-Meeting Agenda templates (located in the `/docs` directory in this repo):
-
-- Meeting - Voyage Kickoff --> ./docs/meeting-voyage_kickoff.docx
-- Meeting - App Vision & Feature Planning --> ./docs/meeting-vision_and_feature_planning.docx
-- Meeting - Sprint Retrospective, Review, and Planning --> ./docs/meeting-sprint_retrospective_review_and_planning.docx
-- Meeting - Sprint Open Topic Session --> ./docs/meeting-sprint_open_topic_session.docx
-
-## Our Team
+## 👥 Our Team
 
 - Nate : [Github](https://github.com/NatnaelSisay)
 - Molly: [GitHub](https://github.com/learningcoding2022) / [LinkedIn](https://www.linkedin.com/in/molly-b-97877492/)

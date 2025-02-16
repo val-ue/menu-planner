@@ -1,0 +1,81 @@
+/*========================Desktop styles========================*/
+@media screen and (min-width: 1025px) {
+  .title {
+    padding: 0.4em 0;
+    font-size: 2.5em;
+  }
+
+  .sub-heading {
+    margin: 0.5rem 0;
+    font-size: 2.1rem;
+    font-weight: 500;
+  }
+  /*===Allergens======================================================================================*/
+  .allergens {
+    margin-bottom: 0.5rem;
+  }
+
+  .allergens h2 {
+    font-size: 1.8rem;
+    padding: 0.1em 0;
+  }
+
+  /*===Selectors======================================================================================*/
+  .selection {
+    flex-direction: row;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    padding: 0.4rem 1.5rem;
+  }
+
+  .btn-primary {
+    font-size: 1.1rem;
+  }
+
+  .calendarStartDatePicker {
+    padding: 5px;
+  }
+
+  /*===Calendar======================================================================================*/
+  .weekly-calendar {
+    min-height: 320px;
+    margin: 0;
+  }
+
+  .weekday-list {
+    gap: 0.5rem;
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .weekday {
+    height: auto;
+    gap: 2%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 1.5rem;
+  }
+
+  .box {
+    align-items: flex-start;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .dish-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0;
+  }
+
+  .dish-ingredients {
+    flex-direction: column;
+    margin: 1rem 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+    gap: 0rem;
+  }
+}
